@@ -34,7 +34,7 @@ LoRa WAN is an open LPWAN data link standard maintained by the LoRa Alliance.
 * [LoRa (Wikipedia article)](https://en.wikipedia.org/wiki/LPWAN)
 * [LoRa Technology (official page)](https://www.lora-alliance.org/What-Is-LoRa/Technology)
 * [LoRa vs LTE vs Sigfox (blog post by Nick Hunn)](http://www.nickhunn.com/lora-vs-lte-m-vs-sigfox/)
-* [Decoding the LoRa PHY (33c3 session by Matt Knight](https://media.ccc.de/v/33c3-7945-decoding_the_lora_phy#video&t=129)
+* [Decoding the LoRa PHY (33c3 session by Matt Knight)](https://media.ccc.de/v/33c3-7945-decoding_the_lora_phy#video&t=129)
 * [Limitation (The Things Network Forum)](https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300)
 * [Understanding the Limits of LoRaWAN (article in IEEE Communications)](https://arxiv.org/pdf/1607.08011.pdf)
 
@@ -51,7 +51,7 @@ LoPy is a MicroPython enabled microcontroller that supports three different wire
 * Teensy LC (microcontroller) + RFM95 (radio module): Low cost but requires soldering and fiddling
 * Many more
 
-### Recommended Reading
+### Links
 * [LoPy (official page)](https://www.pycom.io/product/lopy/)
 * [LoPy getting started](https://docs.pycom.io/pycom_esp32/pycom_esp32/getstarted.html)
 * [Pymakr Plugin (IDE)](https://docs.pycom.io/pycom_esp32/pycom_esp32/toolsandfeatures.html#pymakr-ide)
@@ -61,6 +61,27 @@ LoPy is a MicroPython enabled microcontroller that supports three different wire
 * [Dive into Python 3](http://www.diveintopython3.net/)
 
 
-## Setup
+## Demo Setup
 
-TODO
+The demo setup consists of the following components:
+* Your laptop, a micro USB cable, and the Pymakr IDE installed
+* LoPy node with extension board and antenna 
+* The python code in this repository
+* "The Things Network" (TTN) backend running in the cloud
+* Your TTN account and your own TTN application
+* The TTN console
+
+### Step by Step Description
+
+1. Follow the 'LoPy to Single Channel ...' online tutorial
+2. Open the TTN console and navigate to your registered device
+2. Connect to your LoPy via micro-USB
+3. Load the boot.py and main.py files to your LoPy
+4. Update the connect parameters in main.py to your application's parameters
+5. Run the main.py
+6. Click on the micro button on the LoPy extension board
+7. You should see the message in the TTN console
+
+### Links
+* [LoPy to Single Channel Gateway to The Things Network (by Chris Samuelson)](https://www.hackster.io/ChrisSamuelson/lopy-to-single-channel-gateway-to-the-things-network-08f642)
+* [TTN Console (need to login for this)](https://console.thethingsnetwork.org/)

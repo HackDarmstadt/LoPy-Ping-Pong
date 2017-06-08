@@ -44,7 +44,22 @@ TODO
 
 ## LoPy
 
-TODO
+LoPy is a MicroPython enabled microcontroller that supports three different wireless protocols: LoRa, Wifi, Bluetooth. Not a low price option to use with The Things Network but many usability benefits, as all necessary pieces (microprocessor, radio module, python are nicely packaged into a single component).
+
+### Alternatives
+* TheThingsUno: Built for The Things Network but not yet available (June 2017).
+* Teensy LC (microcontroller) + RFM95 (radio module): Low cost but requires soldering and fiddling
+* Many more
+
+### Recommended Reading
+* [LoPy (official page)](https://www.pycom.io/product/lopy/)
+* [LoPy getting started](https://docs.pycom.io/pycom_esp32/pycom_esp32/getstarted.html)
+* [Pymakr Plugin (IDE)](https://docs.pycom.io/pycom_esp32/pycom_esp32/toolsandfeatures.html#pymakr-ide)
+* [LoPy LoRaWAN example (ABP)](https://docs.pycom.io/pycom_esp32/pycom_esp32/tutorial/includes/lora-abp.html)
+* [LoPy and The Things Network (forum posts)](https://www.thethingsnetwork.org/forum/search?q=lopy)
+* [Micropython (official page)](https://micropython.org/)
+* [Dive into Python 3](http://www.diveintopython3.net/)
+
 
 ## Setup
 
